@@ -1,64 +1,97 @@
-.header *,
-.header {
-    border: 1px dotted black;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
+/* .header *,
 .header {
-    display: flex;
-    align-items: center;
-    padding: 0.5rem 3rem;
-    justify-content: space-between;
-    background-color: rgba(255, 177, 246, 0.3);
-}
+  border: 1px dotted black;
+} */
 
-.left {
+.header {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 3rem;
+  justify-content: space-between;
+  background-color: rgba(85, 37, 130, 0.2); /* Lakers purple background */
+
+  .left {
     align-items: center;
     display: flex;
     gap: 0.5rem;
-}
 
-.logo {
-    max-width: 6rem;
-}
+    .logo {
+      max-width: 6rem;
+    }
 
-.company-name {
-    font size: 2rem;
-    color: rgb(119, 0, 119);
-}
+    .company-name {
+      font-size: 2rem;
+      color: #552582; /* Deep Lakers purple */
+    }
+  }
 
-.right {
+  .right {
     display: flex;
     gap: 0.5rem;
-}
 
-.btn {
-    backgrounnd: #240020;
-    background: linear-gradient(
+    .btn {
+      background: #552582;
+      background: linear-gradient(
         90deg,
-        rgba(36, 0, 32, 0.3) 0%,
-        rgba(148, 0, 230, 0.3) 35%
-        rgba(255, 0, 230, 0.3) 100%
-    );
-    font size: 1.3rem;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
-    box-shadow: 2.6px 5.1px 5.1px hsl(0deg 0% 0% / 0.42);
-    transition-duration: 300ms;
+        rgba(85, 37, 130, 0.3) 0%,    /* Lakers purple */
+        rgba(253, 185, 39, 0.3) 50%,  /* Lakers yellow */
+        rgba(255, 223, 0, 0.3) 100%   /* Bright yellow */
+      );
+      font-size: 1.3rem;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      box-shadow: 2.6px 5.1px 5.1px hsl(0deg 0% 0% / 0.42);
+      transition-duration: 150ms;
+      color: #552582;
+      
+      &:hover {
+        transform: translateX(2.6px) translateY(5.1px);
+        box-shadow: 0 0 0 hsl(0deg 0% 0% / 0.42);
+      }
 
+      &:not(:hover) {
+        transform: scale(0.9);
+      }
 
+      &:active {
+        box-shadow: inset 2.6px 5.1px 5.1px hsl(0deg 0% 0% / 0.42);
+      }
+    }
+  }
 }
 
-
-&:hover {
-    transform: translateX(2.6px) translateY(55.1px);
-    box-shadow: 0 0 0 hsl(0deg 0% 0% / 0.42);
-
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(253, 185, 39, 0.2); /* Light Lakers yellow */
 }
 
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem 0;
-    background-color: rgba(255, 177, 246, 0.3);
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100svh;
 }
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  outline: 1px solid rgba(85, 37, 130, 0.3); /* Border with Lakers purple tint */
+}
+
+/* 
+    add
+*/
