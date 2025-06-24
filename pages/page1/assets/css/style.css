@@ -13,12 +13,12 @@ html, body {
 
 .main-content {
   flex: 1;
-  background-color: #f0f0f0; 
+  background-color: #f0f0f0;
   padding: 2rem;
 }
 
 .header {
-  background-color: #fff; 
+  background-color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -50,7 +50,7 @@ html, body {
 
 .nav-center a:hover {
   text-decoration: underline;
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
 
 .right {
@@ -83,7 +83,7 @@ html, body {
 }
 
 .footer {
-  background-color: #111; 
+  background-color: #111;
   color: #f0f0f0;
   padding: 2rem;
   font-size: 0.9rem;
@@ -152,6 +152,6 @@ html, body {
 }
 
 .footer-bottom span {
-  margin-right: 1rem;
+  margin-right: 2rem;
   display: inline-block;
 }
