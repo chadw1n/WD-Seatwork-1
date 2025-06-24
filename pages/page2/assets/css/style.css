@@ -6,23 +6,29 @@
   font-family: sans-serif;
 }
 
-body {
-  background-color: #f9f9f9;
-}
-
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #ffffff;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: black;
+  color: white;
+}
+
+body {
+  background-image: url('../img/car\ rental\ bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
 }
 
 .left {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  z-index: 2;
 }
 
 .logo {
@@ -32,34 +38,39 @@ body {
 
 .company-name {
   font-size: 1.5rem;
-  color: #333;
+  color: white;
 }
 
 .nav-links {
   display: flex;
   gap: 1rem;
+  z-index: 2;
 }
 
 .nav-links a {
-  color: #444;
+  color: white;
   font-size: 1rem;
   padding: 0.3rem 0.5rem;
   transition: color 0.2s;
 }
 
 .nav-links a:hover {
-  color: #ff5a5f;
+  color: #ffcc00;
 }
 
-.right .btn {
+.right {
+  z-index: 2;
+}
+
+.btn {
   padding: 0.4rem 1rem;
-  background-color: #ff5a5f;
-  color: white;
+  background-color: #ffcc00;
+  color: black;
   border-radius: 5px;
   font-weight: bold;
   transition: background-color 0.3s;
 }
 
-.right .btn:hover {
-  background-color: #e0464a;
+.btn:hover {
+  background-color: #e6b800;
 }
