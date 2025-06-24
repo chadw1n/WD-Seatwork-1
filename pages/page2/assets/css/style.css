@@ -16,7 +16,7 @@
 }
 
 body {
-  background-image: url('../img/car\ rental\ bg.jpg');
+  background-image: url('../img/car\ rental\ bg.jpg ');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -73,4 +73,78 @@ body {
 
 .btn:hover {
   background-color: #e6b800;
+}
+
+.footer {
+  background-color: #111; 
+  color: #f0f0f0;
+  padding: 2rem;
+  font-size: 0.9rem;
+  border-top: 1px solid #444;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #444;
+}
+
+.footer-column {
+  min-width: 150px;
+  margin-bottom: 1rem;
+}
+
+.footer-column h4 {
+  margin-bottom: 0.8rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.footer-column a {
+  display: block;
+  color: #bbb;
+  text-decoration: none;
+  margin-bottom: 0.4rem;
+}
+
+.footer-column a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 1.5rem;
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+.footer-bottom a {
+  margin-right: 1rem;
+  color: #bbb;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer-bottom .language {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.footer-bottom .language::before {
+  content: "🌐";
+}
+
+.footer-bottom span {
+  margin-right: 1rem;
+  display: inline-block;
 }
