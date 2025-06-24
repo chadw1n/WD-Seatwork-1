@@ -74,6 +74,19 @@ nav li:first-child {
   display: none;
 }
 
+.brand {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  text-decoration: none;
+}
+
+.logo {
+  height: 50px; 
+  margin-right: 0px;
+  padding: 0;
+}
+
 @media (max-width: 800px) {
     .hideOnMobile {
         display: none;
