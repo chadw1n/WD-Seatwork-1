@@ -5,7 +5,12 @@
   text-decoration: none;
   font-family: Arial, sans-serif;
 }
- 
+
+body {
+  background-color: #1e1e1e;
+  color: white;
+}
+
 header {
   background-color: #111;
   height: 100vh;
@@ -18,7 +23,7 @@ header {
   align-items: center;
   padding-top: 1rem;
 }
- 
+
 header:hover {
   width: 12rem;
 }
@@ -45,10 +50,44 @@ header:hover {
   white-space: nowrap;
 }
 
-header:hover {
-  width: 12rem;
-}
-
 header:hover .company-name {
   opacity: 1;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: flex-start;
+  padding-left: 1rem;
+  width: 100%;
+}
+
+nav ul li a {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  color: white;
+  font-size: 0.95rem;
+  width: 100%;
+  transition: color 0.2s ease;
+}
+
+nav ul li a i {
+  min-width: 1.2rem;
+  text-align: center;
+}
+
+nav ul li a span {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+header:hover nav ul li a span {
+  opacity: 1;
+}
+
+nav ul li a:hover {
+  color: #ff4ecb;
 }
