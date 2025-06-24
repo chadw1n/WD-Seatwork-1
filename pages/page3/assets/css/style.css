@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+ 
+header {
+  background-color: rgb(10, 11, 23);
+  height: 100svh;
+  width: 7rem;
+  position: fixed;
+  transition: all 0.25s ease-in;
+}
+ 
+header:hover {
+  width: 12rem;
+}
+
+.logo {
+  width: 100%;
+  max-width: 4rem;
+  height: auto;
+  display: block;
+  margin: 0 auto 0.5rem auto;
+}
+
+.logo-container {
+  padding: 1rem 0.5rem;
+  text-align: center;
+}
