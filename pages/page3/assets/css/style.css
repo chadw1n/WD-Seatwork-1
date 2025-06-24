@@ -44,3 +44,11 @@ header:hover {
   transition: opacity 0.3s ease;
   white-space: nowrap;
 }
+
+header:hover {
+  width: 12rem;
+}
+
+header:hover .company-name {
+  opacity: 1;
+}
