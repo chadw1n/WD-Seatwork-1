@@ -9,7 +9,6 @@
   </a>
   <h3 align="center">WD-Seatwork-1</h3>
 </div>
-<!-- TODO: Make a short description -->
 <div align="center">
     This project showcases my ability to create responsive and well-structured website headers and footers using HTML and CSS.
 </div>
@@ -51,11 +50,6 @@
 ---
 
 ## Overview
-
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
-Description of the project in details.
-
 📄 Overview
 WD-Seatwork-1 is a web design project that showcases my ability to build various responsive and functional headers and footers using HTML and CSS. This project contains four unique layouts that reflect different industries and purposes—ranging from e-commerce to personal branding—demonstrating both visual design and layout versatility.
 
@@ -102,7 +96,6 @@ These technologies are used without frameworks to strengthen my understanding of
 - Mobile-friendly design with media queries
 
 ### Technology
-<!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
@@ -143,7 +136,6 @@ WD-ProjectName
 
 ## Resources
 
-<!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
 | Nike Philippines Official Website	 | Used as inspiration and reference for the layout and content structure of Header and Footer 1. | https://www.nike.com/ph |
