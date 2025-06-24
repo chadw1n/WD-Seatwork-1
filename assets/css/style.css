@@ -1,44 +1,57 @@
 .main-page {
   margin: 0;
   padding: 2rem;
-  font-family: Arial, sans-serif;
-  background-color: #222;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #1f1f1f, #444);
   color: white;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   min-height: 100vh;
+  text-align: center;
 }
 
 .main-page h1 {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
+  font-size: 2.8rem;
+  margin-bottom: 0.3rem;
 }
 
 .main-page h2 {
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-bottom: 1rem;
 }
 
 .main-page h3 {
-  font-size: 1rem;
-  color: yellow;
-  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  color: #ffcc00;
+  margin-bottom: 2rem;
 }
 
 .description {
   font-size: 1rem;
-  margin-bottom: 1.5rem;
   max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
+  line-height: 1.6;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #555;
 }
 
 .pages-link {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .pages-link a {
-  display: inline-block;
-  margin: 0.5rem;
-  color: yellow;
   text-decoration: none;
+  color: #ffcc00;
+  font-weight: bold;
+  margin: 0 1rem;
+  transition: color 0.2s;
+}
+
+.pages-link a:hover {
+  color: #ffffff;
+  text-decoration: underline;
 }
