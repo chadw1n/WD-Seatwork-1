@@ -5,21 +5,17 @@
 <br />
 <div align="center">
   <a href="https://github.com/chadw1n/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/Lebron James.jpg" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/Sherwin Logo White.png" alt="Nyebe" width="130" height="100">
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">WD-Seatwork-1</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  This project is demonstrating my skills in making 
+    This project showcases my ability to create responsive and well-structured website headers and footers using HTML and CSS.
 </div>
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
 ![](https://visit-counter.vercel.app/counter.png?page=chadw1n/WD-Seatwork-1)
 
 [![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
@@ -29,7 +25,6 @@
 <br />
 <br />
 
-<!-- TODO: If you want to add more layers for your readme no need to add or edit anymore for higher year level only--> 
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -61,24 +56,56 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+📄 Overview
+WD-Seatwork-1 is a web design project that showcases my ability to build various responsive and functional headers and footers using HTML and CSS. This project contains four unique layouts that reflect different industries and purposes—ranging from e-commerce to personal branding—demonstrating both visual design and layout versatility.
+
+🔎 Purpose
+The goal of this seatwork is to practice implementing clean, reusable web components, focusing on structure, responsiveness, and style. It helps reinforce essential frontend skills, particularly in semantic HTML and custom CSS.
+
+🧩 Key Components
+Each design includes:
+
+A header with branding, navigation, and sometimes interactive elements (like search bars or icons)
+
+A footer containing links, contact details, social icons, or newsletter input fields
+
+Here are the four layouts included:
+
+Nike Clone Layout – A commercial-style layout with a central nav bar, search box, and multi-section footer.
+
+Car Rental Layout – A modern landing page header with a branded logo and a structured footer with newsletter input and social media icons.
+
+Friendless Book Layout – A sidebar-style vertical header that expands on hover, paired with a minimalistic fixed footer.
+
+Responsive Navbar Layout – A fully responsive navigation bar with a sidebar menu on smaller screens and a clean, professional footer for personal branding.
+
+💻 Technology Used
+HTML: Structures all page elements including navigation menus, logos, and content sections.
+
+CSS: Styles each layout, handles positioning, animations (like hover expansions), and responsiveness via media queries.
+
+These technologies are used without frameworks to strengthen my understanding of raw web development and layout behavior.
 
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-- Single Page Website
-- Parallax transition
-- Transactional <!-- JS -->
+- Four unique header and footer designs
+
+- Responsive navigation menus
+
+- Logo and branding integration
+
+- Search bar and icon elements
+
+- Footer sections with links, contact info, or social media
+
+- Sidebar navigation (for small screen layouts)
+
+- Mobile-friendly design with media queries
 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
+
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -119,4 +146,5 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Nike Philippines Official Website	 | Used as inspiration and reference for the layout and content structure of Header and Footer 1. | https://www.nike.com/ph |
+| How to Create a Responsive Navigation Bar (for beginners)	 | Followed as a tutorial reference for building Header and Footer 4 with responsive behavior and sidebar navigation. | https://www.youtube.com/watch?v=U8smiWQ8Seg |
