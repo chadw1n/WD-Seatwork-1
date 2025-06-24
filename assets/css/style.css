@@ -2,7 +2,7 @@
   margin: 0;
   padding: 2rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(to bottom right, #1f1f1f, #444);
+  background: linear-gradient(145deg, #1e1e1e, #333);
   color: white;
   display: flex;
   flex-direction: column;
@@ -12,21 +12,45 @@
   text-align: center;
 }
 
-.main-page h1 {
+.card {
+  background-color: #2a2a2a;
+  border-radius: 15px;
+  padding: 3rem;
+  max-width: 700px;
+  width: 100%;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+  border: 1px solid #444;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+}
+
+.card h1 {
   font-size: 2.8rem;
   margin-bottom: 0.3rem;
+  color: #ffcc00;
+  text-shadow: 1px 1px 5px rgba(255, 204, 0, 0.3);
 }
 
-.main-page h2 {
+.card h2 {
   font-size: 1.5rem;
   font-weight: normal;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+  color: #ccc;
 }
 
-.main-page h3 {
-  font-size: 1.2rem;
-  color: #ffcc00;
+.card h3 {
+  font-size: 1.3rem;
+  color: #ffffff;
+  background-color: #ffcc00;
+  padding: 0.3rem 1rem;
+  border-radius: 20px;
+  display: inline-block;
   margin-bottom: 1rem;
+  font-weight: 600;
 }
 
 .description {
@@ -37,23 +61,41 @@
   padding: 1rem 1.5rem;
   border-radius: 10px;
   border: 1px solid #555;
+  margin-bottom: 2rem;
 }
 
 .pages-link {
-  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .pages-link a {
-  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  padding: 0.6rem 1.4rem;
+  margin: 0.5rem;
+  border-radius: 8px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 204, 0, 0.3) 0%,
+    rgba(255, 204, 0, 0.6) 35%,
+    rgba(255, 204, 0, 0.3) 100%
+  );
   color: #ffcc00;
   font-weight: bold;
-  margin: 0 1rem;
-  transition: color 0.2s;
+  text-decoration: none;
+  box-shadow: 2.6px 5.1px 5.1px rgba(0, 0, 0, 0.42);
+  transition: transform 150ms ease, box-shadow 150ms ease;
 }
 
 .pages-link a:hover {
-  color: #ffffff;
-  text-decoration: underline;
+  transform: translateX(2.6px) translateY(5.1px);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.42);
 }
 
+.pages-link a:active {
+  box-shadow: inset 2.6px 5.1px 5.1px rgba(0, 0, 0, 0.42);
+}
 
