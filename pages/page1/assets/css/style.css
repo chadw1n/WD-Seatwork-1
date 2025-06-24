@@ -2,6 +2,7 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
 
 .page-container {
@@ -12,9 +13,12 @@ html, body {
 
 .main-content {
   flex: 1;
+  background-color: #f0f0f0; 
+  padding: 2rem;
 }
 
 .header {
+  background-color: #fff; 
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -79,10 +83,11 @@ html, body {
 }
 
 .footer {
-  background-color: #f7f7f7;
+  background-color: #111; 
+  color: #f0f0f0;
   padding: 2rem;
   font-size: 0.9rem;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #444;
 }
 
 .footer-top {
@@ -90,7 +95,7 @@ html, body {
   justify-content: space-between;
   flex-wrap: wrap;
   padding-bottom: 1.5rem;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #444;
 }
 
 .footer-column {
@@ -101,16 +106,18 @@ html, body {
 .footer-column h4 {
   margin-bottom: 0.8rem;
   font-weight: bold;
+  color: #fff;
 }
 
 .footer-column a {
   display: block;
-  color: #555;
+  color: #bbb;
   text-decoration: none;
   margin-bottom: 0.4rem;
 }
 
 .footer-column a:hover {
+  color: #fff;
   text-decoration: underline;
 }
 
@@ -120,16 +127,17 @@ html, body {
   flex-wrap: wrap;
   padding-top: 1.5rem;
   font-size: 0.8rem;
-  color: #777;
+  color: #aaa;
 }
 
 .footer-bottom a {
   margin-right: 1rem;
-  color: #555;
+  color: #bbb;
   text-decoration: none;
 }
 
 .footer-bottom a:hover {
+  color: #fff;
   text-decoration: underline;
 }
 
