@@ -171,3 +171,28 @@ html, body {
   border: none;
   border-radius: 5px;
 }
+
+.top-nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  background-color: #111;
+  padding: 0.5rem 1rem;
+}
+
+.top-nav-links a {
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.top-nav-links a:hover {
+  color: #ffcc00;
+}
+
+.top-nav-links a.disabled {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
