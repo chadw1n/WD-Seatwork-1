@@ -40,6 +40,17 @@ body {
   gap: 1rem;
 }
 
+.nav-links a {
+  color: #444;
+  font-size: 1rem;
+  padding: 0.3rem 0.5rem;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: #ff5a5f;
+}
+
 .right .btn {
   padding: 0.4rem 1rem;
   background-color: #ff5a5f;
@@ -49,4 +60,6 @@ body {
   transition: background-color 0.3s;
 }
 
-
+.right .btn:hover {
+  background-color: #e0464a;
+}
