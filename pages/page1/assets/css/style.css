@@ -1,3 +1,19 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -26,7 +42,6 @@
   text-decoration: none;
   font-weight: 500;
   transition: background-color 0.2s ease, transform 0.2s ease;
-
 }
 
 .nav-center a:hover {
@@ -42,6 +57,12 @@
   gap: 1rem;
 }
 
+.search-box {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
 .icon {
   width: 24px;
   height: 24px;
@@ -53,8 +74,8 @@
 }
 
 .icon:hover {
-  background-color: rgba(0, 0, 0, 0.1); 
-  transform: scale(1.1); 
+  background-color: rgba(0, 0, 0, 0.1);
+  transform: scale(1.1);
 }
 
 .footer {
@@ -126,4 +147,3 @@
   margin-right: 1rem;
   display: inline-block;
 }
-
