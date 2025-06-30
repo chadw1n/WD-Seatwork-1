@@ -99,7 +99,6 @@
   box-shadow: inset 2.6px 5.1px 5.1px rgba(0, 0, 0, 0.42);
 }
 
-/* Background video styling */
 .background-video {
   position: fixed;
   top: 0;
@@ -110,11 +109,10 @@
   z-index: -1;
 }
 
-/* Overlay for content visibility if needed */
 .main-page {
   position: relative;
   z-index: 1;
-  background: transparent; /* override the previous background */
+  background: transparent; 
   backdrop-filter: brightness(0.9);
   overflow: hidden;
 }
