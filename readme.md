@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/chadw1n/">
-    <img src="./assets/img/Sherwin Logo White.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/Sherwin Logo White.png" alt="Sherwin Logo" width="130" height="100">
   </a>
   <h3 align="center">WD-Seatwork-1</h3>
 </div>
@@ -81,7 +81,9 @@ CSS: Styles each layout, handles positioning, animations (like hover expansions)
 These technologies are used without frameworks to strengthen my understanding of raw web development and layout behavior.
 
 ### Key Components
-- Four unique header and footer designs
+- Multiple header and footer designs
+
+- Hover and animation effects
 
 - Responsive navigation menus
 
@@ -91,9 +93,12 @@ These technologies are used without frameworks to strengthen my understanding of
 
 - Footer sections with links, contact info, or social media
 
-- Sidebar navigation (for small screen layouts)
+- Sidebar navigation with hover expansion
 
 - Mobile-friendly design with media queries
+
+- Integration of icons using Font Awesome
+
 
 ### Technology
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -140,3 +145,4 @@ WD-ProjectName
 |-|-|-|
 | Nike Philippines Official Website	 | Used as inspiration and reference for the layout and content structure of Header and Footer 1. | https://www.nike.com/ph |
 | How to Create a Responsive Navigation Bar (for beginners)	 | Followed as a tutorial reference for building Header and Footer 4 with responsive behavior and sidebar navigation. | https://www.youtube.com/watch?v=U8smiWQ8Seg |
+| Font Awesome CDN (cdnjs) | Used to include Font Awesome icons quickly by linking to a hosted stylesheet, making it easy to add icons to navigation elements and buttons without downloading icon files locally. | https://cdnjs.com/libraries/font-awesome |
